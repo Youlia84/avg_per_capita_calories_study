@@ -30,7 +30,7 @@ df3=df3.drop(columns='index')
 joined=food1_df.join(df3.set_index('Food 1'), on = 'Food 1')
 
 st.image('images/Collage3.jpg')
-st.title('Adjusted Food Availability in the Unites States 1970-2018')
+st.title('Loss-Adjusted Food Availability in the United States 1970-2018')
 
 st.sidebar.header("Filters")
 
