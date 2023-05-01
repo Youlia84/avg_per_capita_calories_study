@@ -38,7 +38,7 @@ decades = list(df1['Decade'].drop_duplicates())
 decades_filter = st.sidebar.multiselect(
     'Choose decade:', decades)
 food_list=list(joined['Food'].drop_duplicates())
-food_filter = st. sidebar.selectbox('Choose Food Category',food_list,default='Dairy')
+food_filter = st. sidebar.selectbox('Choose Food Category',food_list)
 
 tab1, tab2, tab3 = st.tabs(['Overall Distribution', 'Year over Year', 'Detail'])
 
