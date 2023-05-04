@@ -2,6 +2,8 @@
 
 <h2>A Study of Loss-Adjusted Food Availability in the United States</h2>
 
+<b>Link to app</b>
+https://youlia84-avg-per-capita-calories-study-app-ozbtam.streamlit.app/
 
 <b>Data Source</b>
 
